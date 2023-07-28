@@ -8,7 +8,6 @@ This was the first [Frontend Mentour challenge](https://www.frontendmentor.io/ch
 [Frontend Mentour](https://www.frontendmentor.io/)
 [Live Preview](https://danbarber.github.io/FrontendMentour/qr-code-challenge/)
 
-
 ---
 
 # Bootstrap 5 Simple Starter
