@@ -5,8 +5,8 @@ This was the first [Frontend Mentour challenge](https://www.frontendmentor.io/ch
 ![Preview image of the solution](https://danbarber.github.io/FrontendMentour/qr-code-challenge/images/solution-preview.png)
 
 ## Links
-[Frontend Mentour](https://www.frontendmentor.io/)
-[Live Preview](https://danbarber.github.io/FrontendMentour/qr-code-challenge/)
+- [Frontend Mentour](https://www.frontendmentor.io/)
+- [Live Preview](https://danbarber.github.io/FrontendMentour/qr-code-challenge/)
 
 ---
 
