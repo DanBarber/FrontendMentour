@@ -2,10 +2,29 @@ body {
     background: var(--bs-primary);
 }
 
-.card-container {
-    width: 350px;
+.qr-code img {
+    width: 360px;
 }
 
-.qr-code img {
-    width: 350px;
+.card-container {
+    width: 360px;
+}
+
+.card {
+    width: 400px;
+}
+
+// Handle mobile devices nicer
+@media (max-width: 400px) {
+    .qr-code img {
+        width: 280px;
+    }
+
+    .card-container {
+        width: 280px;
+    }
+    
+    .card {
+        width: 320px;
+    }
 }
