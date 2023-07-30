@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/DanBarber/FrontendMentour/tree/main/nft-preview-card)
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site URL](https://danbarber.github.io/FrontendMentour/nft-preview-card/)
 
 ## My process
 
