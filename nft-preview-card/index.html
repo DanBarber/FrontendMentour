@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>NFT Preview Card</title>
+  </head>
+  <body>
+    
+    <section class="nft-preview">
+      <div class="container d-flex vh-100">
+        <div class="card rounded-4 flex-column align-items-center align-self-center mx-auto shadow">
+          <div class="card-body p-4">
+            <span class="nft-img d-flex rounded-4">
+              <a href="#">
+                <img class="nft-icon rounded-4" src="images/image-equilibrium.jpg" alt="">
+                <img class="overlay-img" src="images/icon-view.svg" alt="">
+                <div class="overlay rounded-4">
+                </div>
+              </a>
+            </span>
+            <h5 class="text-light pt-4"><a class="text-decoration-none" href="#">Equilibrium #3429</a></h5>
+            <p class="text-primary text-primary fw-light fs-6 pt-2">Our Equilibirum collection promotes balance and calm.</p>
+            <div class="d-flex pb-2 align-items-center">
+              <img class="pe-1" src="images/icon-ethereum.svg" alt="">
+              <span class="align-items-center text-secondary flex-grow-1">0.0041 ETH</span>
+              <img class="pe-1" src="images/icon-clock.svg" alt="">
+              <span class="text-primary"> 3 days left</span>
+            </div>
+            <hr class="border-info w-100 mx-auto text-light">
+            <div class="d-flex">
+              <span class="nft-creator pe-3"><img class="rounded-circle border border-1" src="images/image-avatar.png" alt=""></span>
+              <span class="align-items-center justify-content-center text-primary">Creation of <a class="text-decoration-none" href="#">Jules Wyvern</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+// Font
+$font-family-sans-serif: 'Outfit', sans-serif;
+
+// Colors
+$primary: hsl(215, 51%, 70%);
+$secondary: hsl(180, 84%, 58%);
+$light: hsl(0, 0%, 100%);
+$info: hsl(215, 32%, 27%);
+$link-hover-color: $secondary;
+
+// Spacing
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 8,
+  8: $spacer * 12,
+) !default;
+
+// Container
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 980px,
+  xxl: 1000px,
+) !default;
+
+//@import '../node_modules/bootstrap/scss/bootstrap';
+
+// Custom colors for backgrounds
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// Adding custom colors
+$custom-colors: (
+  "v-dark-blue-main": hsl(217, 54%, 11%),
+  "v-dark-blue-bg": hsl(216, 50%, 16%),
+  "v-dark-blue-line": hsl(215, 32%, 27%),
+  "eth-currency-color": hsl(180, 84%, 58%)
+);
+
+// Merge the maps 
+$theme-colors: map-merge($theme-colors, $custom-colors);
+@import '../node_modules/bootstrap/scss/bootstrap';
